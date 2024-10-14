@@ -1,0 +1,34 @@
+name: whatsup
+description: "A simple chat app project i made to help me learn flutter mobile development. "
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  cloud_firestore: ^5.4.4
+  firebase: ^9.0.3
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.3
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.1
+  image_picker: ^1.1.2
+  path: ^1.9.0
+  provider: ^6.1.2
+  sqflite: ^2.4.0
+  uuid: ^4.5.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/cat_waving.png
